@@ -1,0 +1,14 @@
+body{
+  background:#f4f4f4;
+  margin: 0;
+}
+
+#img-me{
+  border: solid 2px white;
+  border-radius: 50%;
+}
+
+h1{
+  font-size: 22px;
+  font-weight: bold;
+}
