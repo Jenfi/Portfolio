@@ -58,14 +58,97 @@ p{
   line-height: 29px;
 }
 
+span{
+  font-family: 'Roboto', sans-serif;
+  size: 17px;
+  line-height: 29px;
+  color: #396362;
+  font-weight: bold;
+}
+.code-box{
+  background: #f6c89f;
+  margin-right:3px;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  size: 9px;
+}
+
+.code-input{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
 /* img{
   height: 179px;
   width: 303px; */
 /* } */
 
+.github-hero{
+  position: absolute;
+  left: 52px;
+}
+
+.stackoverflow-hero{
+  position: absolute;
+  left: 10px;
+}
+
+.linkedin-container{
+  border: solid 3px white;
+  border-radius: 50%;
+  width: 39px;
+  height: 39px;
+  margin-right:5px;
+  /* position: absolute;
+  top: 105px;
+  left: 210px; */
+}
+
+.linkedin-container a{
+  position: absolute;
+  top: 12px;
+  left: 12px;
+}
+
+
+.github-container{
+  border: solid 3px white;
+  border-radius: 50%;
+  width: 39px;
+  height: 39px;
+  margin-right:5px;
+  /* position: absolute;
+  top: 105px;
+  left: 254px; */
+}
+
+.github-container a{
+  position: absolute;
+  top: 12px;
+  left: 12px;
+}
+.stackoverflow-container{
+  border: solid 3px white;
+  border-radius: 50%;
+  width: 39px;
+  height: 39px;
+  margin-right:5px;
+}
+
+.stackoverflow-container a{
+  /* position: absolute;
+  top: 12px;
+  left: 12px; */
+}
+
+
 #profilepic{
   position: absolute;
-  width: 162px;
+  left: 176px;
+  top: 359px;
+  width: 159px;
+  height:auto;
   border: solid 3px white;
   border-radius: 50%;
 }
@@ -93,6 +176,13 @@ p{
   flex-direction: column;
   justify-content: center;
   padding-left: 41px;
+}
+
+.link-icons{
+  position: absolute;
+  top: 117px;
+  left:222px;
+  display: flex;
 }
 
 .portfolio-text{
@@ -133,6 +223,19 @@ p{
 
 .projects{
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 58px 36px 56px 36px;
+}
+
+.project-p{
+  text-align: left;
+}
+
+.project-container{
+  margin-bottom: 35px;
 }
 
 .my-words{
