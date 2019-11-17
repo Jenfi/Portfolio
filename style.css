@@ -71,13 +71,11 @@ h5{
 }
 
 h6{
-margin: 0;
-font-size: 21px;
-font-family: 'Roboto', sans-serif;
-line-height: 32px;
+  margin: 0;
+  font-size: 21px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 32px;
 }
-
-
 
 p{
   font-family: 'Montserrat', sans-serif;
@@ -95,7 +93,6 @@ span{
 }
 
 
-
 li{
   background: #ffe7d1;
   margin-right:6px;
@@ -108,8 +105,6 @@ li{
 
 ul{
   display: flex;
-  /* justify-content: flex-start;
-  align-items: center; */ 
   padding: 0;
   list-style-type: none;
 }
@@ -140,22 +135,6 @@ footer p{
   font-size: 17px;
   line-height: 29px;
 }
-/* img{
-  height: 179px;
-  width: 303px; */
-/* } */
-
-/* .github-hero{
-  position: absolute;
-  left: 52px;
-} */
-/* 
-.stackoverflow-hero{
-  position: absolute;
-  left: 10px;
-} */
-
-
 
 .hero-overlay{
   background:black;
@@ -182,10 +161,7 @@ footer p{
   margin-right:5px;
   display: flex;
   align-items: center;
-   justify-content: center;
-  /* position: absolute;
-  top: 105px;
-  left: 210px; */
+  justify-content: center;
 }
 
 .linkedin-container a{
@@ -193,7 +169,6 @@ footer p{
   top: 12px;
   left: 12px;
 }
-
 
 .github-container{
   border: solid 3px white;
@@ -204,16 +179,7 @@ footer p{
   display: flex;
   align-items: center;
   justify-content: center;
-  /* position: absolute;
-  top: 105px;
-  left: 254px; */
 }
-
-/* .github-container a{
-  position: absolute;
-  top: 12px;
-  left: 12px;
-} */
 
 .stackoverflow-container{
   border: solid 3px white;
@@ -226,20 +192,12 @@ footer p{
   align-items: center;
 }
 
-/* .stackoverflow-container a{
-  /* position: absolute;
-  top: 12px;
-  left: 12px;
- } */
-
-
 .link-icons{
 display: flex;
 position: absolute;
 top: 117px;
 left: 200px;
 }
-
 
 .portfolio-text{
   display: flex;
@@ -309,9 +267,9 @@ left: 200px;
 }
 
 .my-words p{
-font-family: 'Roboto', sans-serif;
-font-size: 17px;
-line-height: 32px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  line-height: 32px;
 }
 
 .my-words ul{
@@ -345,7 +303,6 @@ line-height: 32px;
   justify-content: center;
   align-items: baseline;
   flex-wrap: wrap;
-  /* width: 100%; */
 }
 
 .skills h2{
@@ -363,37 +320,6 @@ line-height: 32px;
   font-size: 17px;
   text-align: center;
 }
-/* 
-.code{
-  background: #eeeeee; */
-  /* display: flex; */
-  /* flex-direction: column;
-  justify-content: center;
-  align-items: center; */
-/* } */
-
-/* .toolbox{
-  background: #eeeeee; */
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; */
-/* } */
-
-/* .more{
-  background: #eeeeee; */
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; */
-/* } */
-
-
-
-
-/* .thoughts{
-  padding: 58px 36px 56px 36px;
-} */
 
 .more-info{
   background: #FFF;
@@ -439,19 +365,9 @@ line-height: 32px;
   color: #396362;
 }
 
-/* .contact-text{
-  display: flex;
-  align-items: center;
-  font-family: 'Nunito Sans', sans-serif;
-  font-size: 11px;
-  font-weight: bold;
-  margin: 0;
-} */
-
 .contact-text li{
   background: none;
   color: #396362;
-  /* margin: 0 6px 0 6px; */
 }
 
 #profilepic{
@@ -470,9 +386,6 @@ line-height: 32px;
 
 #upcoming{
   margin: 50px 0 0 0;
-  /* font-family: 'Roboto', sans-serif;
-  size: 17px;
-  line-height: 29px;*/
   color: #396362;
   font-weight: bold;
 }
