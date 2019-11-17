@@ -98,11 +98,12 @@ span{
 
 li{
   background: #ffe7d1;
-  margin-right:3px;
+  margin-right:6px;
   text-align: left;
   font-family: 'Roboto', sans-serif;
   font-size: 9px;
-  line-height: 29px;
+  line-height: 10px;
+  padding: 4px
 }
 
 ul{
