@@ -353,18 +353,49 @@ left: 200px;
 .contact{
   display: flex;
   flex-direction: row;
+  margin: 0;
 }
 
 .contact li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: none;
+}
+
+.contact a{
   border: solid 3px #396362;
   background: #FFF;
   border-radius: 50%;
   width: 59px;
   height: 58px;
-  margin-right:5px;
+  margin: 0 6px 0 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact p{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  color: #396362;
+}
+
+/* .contact-text{
   display: flex;
   align-items: center;
-  justify-content: center;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  margin: 0;
+} */
+
+.contact-text li{
+  background: none;
+  color: #396362;
+  /* margin: 0 6px 0 6px; */
 }
 
 #profilepic{
