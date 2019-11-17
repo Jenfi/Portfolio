@@ -5,18 +5,22 @@ body{
   flex-direction: column;
 }
 
+header{
+  background: url(HERO.jpg) no-repeat center;
+  background-size: cover;
+  height: 508px;
+  border: 1px solid #454946;
+  margin-bottom: 6px
+}
+
+
 article{
-  background:#eeeeee;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-#img-me{
-  border: solid 2px white;
-  border-radius: 50%;
-}
 
 h1{
   font-size: 40px;
@@ -34,6 +38,8 @@ h2{
   font-weight: bold;
   font-family: 'Montserrat', sans-serif;
   padding: 6px;
+  margin: 0 0 39px 0;
+  display: inline-block;
 }
 
 h3{
@@ -52,10 +58,29 @@ h4{
   margin: 4px 0 0 0;
 }
 
+h5{
+  font-family: 'Roboto', sans-serif;
+  size: 17px;
+  line-height: 32px;
+  color: #4b8e8d;
+  margin: 12px 0 0 0;
+  align-self: self-start;
+}
+
+h6{
+margin: 0;
+font-size: 21px;
+font-family: 'Roboto', sans-serif;
+line-height: 32px;
+}
+
+
+
 p{
   font-family: 'Montserrat', sans-serif;
   font-size: 17px;
   line-height: 29px;
+  margin:0;
 }
 
 span{
@@ -65,101 +90,13 @@ span{
   color: #396362;
   font-weight: bold;
 }
-.code-box{
-  background: #f6c89f;
-  margin-right:3px;
-  text-align: left;
-  font-family: 'Roboto', sans-serif;
-  size: 9px;
-}
 
-.code-input{
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-/* img{
-  height: 179px;
-  width: 303px; */
-/* } */
-
-.github-hero{
-  position: absolute;
-  left: 52px;
-}
-
-.stackoverflow-hero{
-  position: absolute;
-  left: 10px;
-}
-
-.linkedin-container{
-  border: solid 3px white;
-  border-radius: 50%;
-  width: 39px;
-  height: 39px;
-  margin-right:5px;
-  /* position: absolute;
-  top: 105px;
-  left: 210px; */
-}
-
-.linkedin-container a{
-  position: absolute;
-  top: 12px;
-  left: 12px;
-}
+.more-thoughts{
+  color: black;
+  font-weight: bold;
+  }
 
 
-.github-container{
-  border: solid 3px white;
-  border-radius: 50%;
-  width: 39px;
-  height: 39px;
-  margin-right:5px;
-  /* position: absolute;
-  top: 105px;
-  left: 254px; */
-}
-
-.github-container a{
-  position: absolute;
-  top: 12px;
-  left: 12px;
-}
-.stackoverflow-container{
-  border: solid 3px white;
-  border-radius: 50%;
-  width: 39px;
-  height: 39px;
-  margin-right:5px;
-}
-
-.stackoverflow-container a{
-  /* position: absolute;
-  top: 12px;
-  left: 12px; */
-}
-
-
-#profilepic{
-  position: absolute;
-  left: 176px;
-  top: 359px;
-  width: 159px;
-  height:auto;
-  border: solid 3px white;
-  border-radius: 50%;
-}
-
-.hero{
-  background: url(HERO.jpg) no-repeat center;
-  background-size: cover;
-  height: 508px;
-  border: 1px solid #454946;
-  margin-bottom: 6px
-}
 
 .hero-overlay{
   background:black;
@@ -178,12 +115,114 @@ span{
   padding-left: 41px;
 }
 
-.link-icons{
-  position: absolute;
-  top: 117px;
-  left:222px;
-  display: flex;
+li{
+  background: #ffe7d1;
+  margin-right:3px;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  size: 9px;
+  line-height: 29px;
 }
+
+ul{
+  /* display: flex;
+  justify-content: flex-start;
+  align-items: center; */
+  padding: 0;
+  list-style-type: none;
+}
+
+a{
+  color: #4b8e8d;
+  font-weight: bold;
+}
+
+footer{
+  background: #465881;
+  padding: 58px 36px 56px 36px;
+}
+
+/* img{
+  height: 179px;
+  width: 303px; */
+/* } */
+
+/* .github-hero{
+  position: absolute;
+  left: 52px;
+} */
+/* 
+.stackoverflow-hero{
+  position: absolute;
+  left: 10px;
+} */
+
+.linkedin-container{
+  border: solid 3px white;
+  border-radius: 50%;
+  width: 39px;
+  height: 39px;
+  margin-right:5px;
+  display: flex;
+  align-items: center;
+   justify-content: center;
+  /* position: absolute;
+  top: 105px;
+  left: 210px; */
+}
+
+.linkedin-container a{
+  position: absolute;
+  top: 12px;
+  left: 12px;
+}
+
+
+.github-container{
+  border: solid 3px white;
+  border-radius: 50%;
+  width: 39px;
+  height: 39px;
+  margin-right:5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* position: absolute;
+  top: 105px;
+  left: 254px; */
+}
+
+/* .github-container a{
+  position: absolute;
+  top: 12px;
+  left: 12px;
+} */
+
+.stackoverflow-container{
+  border: solid 3px white;
+  border-radius: 50%;
+  width: 39px;
+  height: 39px;
+  margin-right:5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .stackoverflow-container a{
+  /* position: absolute;
+  top: 12px;
+  left: 12px;
+ } */
+
+
+.link-icons{
+display: flex;
+position: absolute;
+top: 117px;
+left: 200px;
+}
+
 
 .portfolio-text{
   display: flex;
@@ -228,6 +267,7 @@ span{
   align-items: center;
   justify-content: center;
   padding: 58px 36px 56px 36px;
+  background:#eeeeee;
 }
 
 .project-p{
@@ -244,4 +284,108 @@ span{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 58px 36px 56px 36px;
+}
+
+.skills{
+  background: #eeeeee;
+  padding: 58px 36px 56px 36px;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-wrap: wrap;
+  /* width: 100%; */
+}
+
+.skills h2{
+  margin: 0 150px 36px 150px;
+}
+
+.skills li{
+  background: none;
+  margin: 0 6px 0 6px;
+  font-size: 17px;
+  text-align: center;
+}
+/* 
+.code{
+  background: #eeeeee; */
+  /* display: flex; */
+  /* flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+/* } */
+
+/* .toolbox{
+  background: #eeeeee; */
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+/* } */
+
+/* .more{
+  background: #eeeeee; */
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+/* } */
+
+
+
+
+/* .thoughts{
+  padding: 58px 36px 56px 36px;
+} */
+
+.more-info{
+  background: #FFF;
+  padding: 58px 36px 56px 36px;
+  background: #FFF;
+  padding: 58px 36px 56px 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact{
+  display: flex;
+  flex-direction: row;
+}
+
+.contact li{
+  border: solid 3px #396362;
+  background: #FFF;
+  border-radius: 50%;
+  width: 59px;
+  height: 58px;
+  margin-right:5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#profilepic{
+  position: absolute;
+  left: 176px;
+  top: 359px;
+  width: 159px;
+  height:auto;
+  border: solid 3px white;
+  border-radius: 50%;
+}
+#img-me{
+  border: solid 2px white;
+  border-radius: 50%;
+}
+
+#upcoming{
+  margin: 50px 0 0 0;
+  /* font-family: 'Roboto', sans-serif;
+  size: 17px;
+  line-height: 29px;*/
+  color: #396362;
+  font-weight: bold;
 }
