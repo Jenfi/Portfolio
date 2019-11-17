@@ -47,6 +47,8 @@ h3{
   font-size: 21px;
   font-weight: bold;
   font-family: 'Montserrat', sans-serif;
+  line-height: 25px;
+  margin: 43px 0 43px 0;
 }
 
 h4{
@@ -60,7 +62,8 @@ h4{
 
 h5{
   font-family: 'Roboto', sans-serif;
-  size: 17px;
+  font-size: 17px;
+  font-weight: 400;
   line-height: 32px;
   color: #4b8e8d;
   margin: 12px 0 0 0;
@@ -85,16 +88,71 @@ p{
 
 span{
   font-family: 'Roboto', sans-serif;
-  size: 17px;
+  font-size: 17px;
   line-height: 29px;
   color: #396362;
   font-weight: bold;
 }
 
-.more-thoughts{
-  color: black;
+
+
+li{
+  background: #ffe7d1;
+  margin-right:3px;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  font-size: 9px;
+  line-height: 29px;
+}
+
+ul{
+  display: flex;
+  /* justify-content: flex-start;
+  align-items: center; */ 
+  padding: 0;
+  list-style-type: none;
+}
+
+a{
+  color: #4b8e8d;
   font-weight: bold;
-  }
+}
+
+footer{
+  background: #465881;
+  padding: 58px 36px 56px 36px;
+  text-align: center;
+}
+
+footer h3{
+  color: #FFF;
+}
+
+footer h5{
+  color: #FFF;
+  font-size: 17px;
+}
+
+footer p{
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  line-height: 29px;
+}
+/* img{
+  height: 179px;
+  width: 303px; */
+/* } */
+
+/* .github-hero{
+  position: absolute;
+  left: 52px;
+} */
+/* 
+.stackoverflow-hero{
+  position: absolute;
+  left: 10px;
+} */
 
 
 
@@ -114,48 +172,6 @@ span{
   justify-content: center;
   padding-left: 41px;
 }
-
-li{
-  background: #ffe7d1;
-  margin-right:3px;
-  text-align: left;
-  font-family: 'Roboto', sans-serif;
-  size: 9px;
-  line-height: 29px;
-}
-
-ul{
-  /* display: flex;
-  justify-content: flex-start;
-  align-items: center; */
-  padding: 0;
-  list-style-type: none;
-}
-
-a{
-  color: #4b8e8d;
-  font-weight: bold;
-}
-
-footer{
-  background: #465881;
-  padding: 58px 36px 56px 36px;
-}
-
-/* img{
-  height: 179px;
-  width: 303px; */
-/* } */
-
-/* .github-hero{
-  position: absolute;
-  left: 52px;
-} */
-/* 
-.stackoverflow-hero{
-  position: absolute;
-  left: 10px;
-} */
 
 .linkedin-container{
   border: solid 3px white;
@@ -287,6 +303,40 @@ left: 200px;
   padding: 58px 36px 56px 36px;
 }
 
+.my-words h3{
+  margin: 63px 0 23px 0;
+}
+
+.my-words p{
+font-family: 'Roboto', sans-serif;
+font-size: 17px;
+line-height: 32px;
+}
+
+.my-words ul{
+  display: flex;
+  flex-direction: column;
+}
+
+.my-words li{
+  color: black;
+  font-weight: bold;
+  background: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  line-height: 29px;
+  margin: 4px 0 4px 0;
+  }
+
+.my-words span{
+  color: #4b8e8d;
+  font-weight: 400px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  line-height: 29px;
+  font-weight: 400;
+}
+
 .skills{
   background: #eeeeee;
   padding: 58px 36px 56px 36px;
@@ -299,6 +349,11 @@ left: 200px;
 
 .skills h2{
   margin: 0 150px 36px 150px;
+}
+
+.skills ul{
+  display: flex;
+  flex-direction: column;
 }
 
 .skills li{
