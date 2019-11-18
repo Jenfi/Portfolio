@@ -3,6 +3,8 @@ body{
   margin: 0;
   display: flex;
   flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
 }
 
 header{
@@ -13,14 +15,12 @@ header{
   margin-bottom: 6px
 }
 
-
 article{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-
 
 h1{
   font-size: 40px;
@@ -61,8 +61,6 @@ h4{
 }
 
 h5{
-  font-family: 'Roboto', sans-serif;
-  font-size: 17px;
   font-weight: 400;
   line-height: 32px;
   color: #4b8e8d;
@@ -73,34 +71,21 @@ h5{
 h6{
 margin: 0;
 font-size: 21px;
-font-family: 'Roboto', sans-serif;
 line-height: 32px;
 }
 
 p{
   font-family: 'Montserrat', sans-serif;
-  font-size: 17px;
+
   line-height: 29px;
-  margin:0;
+  margin-top:5px;
 }
 
 span{
   font-family: 'Roboto', sans-serif;
-  font-size: 17px;
   line-height: 29px;
   color: #396362;
   font-weight: bold;
-}
-
-
-li{
-  background: #ffe7d1;
-  margin-right:6px;
-  text-align: left;
-  font-family: 'Roboto', sans-serif;
-  font-size: 9px;
-  line-height: 10px;
-  padding: 4px
 }
 
 ul{
@@ -108,6 +93,16 @@ ul{
   padding: 0;
   list-style-type: none;
 }
+
+li{
+  color: black;
+  font-weight: bold;
+  background: none;
+  line-height: 29px;
+  margin: 4px 0 4px 0;
+  }
+
+
 
 a{
   color: #4b8e8d;
@@ -120,22 +115,41 @@ footer{
   text-align: center;
 }
 
+/* figure {
+  width: 80px;
+  display: flex;
+  align-items: center;
+  margin: 0 12px 0 0;
+} */
+
+
+
 footer h3{
   color: #FFF;
 }
 
 footer h5{
   color: #FFF;
-  font-size: 17px;
 }
 
 footer p{
   color: #FFF;
-  font-family: 'Roboto', sans-serif;
-  font-size: 17px;
   line-height: 29px;
 }
 
+/* .line {
+  width: 70px;
+  height: 4px;
+  background: #4b8e8d;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #4b8e8d;
+  margin-left: -3px;
+} */
 .hero-overlay{
   background:black;
   height: 508px;
@@ -173,32 +187,30 @@ footer p{
 
 .hero-text p{
   color: #fff;
-  font-family: 'Roboto', sans-serif;
   font-size: 13px;
   letter-spacing: 1px;
   margin: 0 20px 0 0;
+  line-height: 15px;
 }
 
 .hero-text span{
   color: #FFF;
-  font-family: 'Roboto', sans-serif;
   font-size: 13px;
   font-weight: bold;
   letter-spacing: 1px;
   margin: 0;
 }
 
-.about-me{
+.me{
   padding: 58px 36px 56px 36px;
   background:#eeeeee;
 }
 
 .tech{
-  background: #fff;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
   padding: 58px 36px 56px 36px;
   text-align: center;
 }
@@ -221,6 +233,14 @@ footer p{
   margin-bottom: 35px;
 }
 
+.project-container li{
+  background: #ffe7d1;
+  margin-right:6px;
+  text-align: left;
+  font-size: 9px;
+  line-height: 10px;
+  padding: 4px
+}
 .my-words{
   background: #fff;
   display: flex;
@@ -235,8 +255,6 @@ footer p{
 }
 
 .my-words p{
-font-family: 'Roboto', sans-serif;
-font-size: 17px;
 line-height: 32px;
 }
 
@@ -245,21 +263,9 @@ line-height: 32px;
   flex-direction: column;
 }
 
-.my-words li{
-  color: black;
-  font-weight: bold;
-  background: none;
-  font-family: 'Roboto', sans-serif;
-  font-size: 17px;
-  line-height: 29px;
-  margin: 4px 0 4px 0;
-  }
-
 .my-words span{
   color: #4b8e8d;
   font-weight: 400px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 17px;
   line-height: 29px;
   font-weight: 400;
 }
@@ -285,7 +291,6 @@ line-height: 32px;
 .skills li{
   background: none;
   margin: 0 6px 0 6px;
-  font-size: 17px;
   text-align: center;
 }
 
@@ -364,11 +369,11 @@ line-height: 32px;
 @media (min-width: 650px){
 
 .link-icons {
-  left: 380px;
+  left: 450px;
 }
 
 #profilepic {
-  left: 356px;
+  left: 380px;
 }
 
 .about-me {
@@ -388,26 +393,54 @@ line-height: 32px;
 }
 
 @media (min-width:900px){
+
 .hero-overlay {
-  padding: 0 400px 0 400px;
-  }
+padding: 0 100px 0 100px;
+}
    
   
-.hero-text h1{
- width: min-content;
-  }
+.hero-text h1 {
+  width: min-content;
+  font-size: 62px;
+  line-height: 60px;
+}
 
-  .portfolio-text p {
-    font-size: 33px;
-  }
+.hero-text p {
+font-size: 28px;
+line-height: 33px;
+}
+
+.hero-text span {
+  font-size: 28px;
+}
+
+.portfolio-text p {
+  font-size: 33px;
+}
 
  .link-icons {
-  left: 540px;
+  left: 620px;
+}
+
+.me {
+  padding: 58px 120px 56px 120px;
+}
+
+.skills {
+  padding: 58px 145px 56px 145px;
+}
+
+
+.skills h2 {
+  margin: 0 200px 36px 200px;
 }
 
 #profilepic {
-  left: 500px;
+  left: 550px;
 }
 
+}
+
+@media (min-width:1200px){
 
 }
