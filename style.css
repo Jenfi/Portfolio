@@ -71,10 +71,10 @@ h5{
 }
 
 h6{
-  margin: 0;
-  font-size: 21px;
-  font-family: 'Roboto', sans-serif;
-  line-height: 32px;
+margin: 0;
+font-size: 21px;
+font-family: 'Roboto', sans-serif;
+line-height: 32px;
 }
 
 p{
@@ -161,7 +161,7 @@ footer p{
   margin-right:5px;
   display: flex;
   align-items: center;
-  justify-content: center;
+   justify-content: center;
 }
 
 .linkedin-container a{
@@ -267,9 +267,9 @@ left: 200px;
 }
 
 .my-words p{
-  font-family: 'Roboto', sans-serif;
-  font-size: 17px;
-  line-height: 32px;
+font-family: 'Roboto', sans-serif;
+font-size: 17px;
+line-height: 32px;
 }
 
 .my-words ul{
