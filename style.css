@@ -203,7 +203,7 @@ left: 200px;
   display: flex;
 }
 
-.portfolio p{
+.portfolio-text p{
   color: #fff;
   font-family: 'Roboto', sans-serif;
   font-size: 13px;
@@ -388,4 +388,58 @@ line-height: 32px;
   margin: 50px 0 0 0;
   color: #396362;
   font-weight: bold;
+}
+
+
+/*MEDIA QUERIES*/
+
+@media (min-width: 650px){
+
+.link-icons {
+  left: 380px;
+}
+
+#profilepic {
+  left: 356px;
+}
+
+.about-me {
+  padding: 58px 100px 56px 100px;
+}
+
+.projects {
+  padding: 58px 100px 56px 100px;
+}
+
+.my-words {
+  padding: 58px 100px 56px 100px;
+}
+
+.skills {
+  padding: 58px 75px 56px 75px;
+}
+
+@media (min-width:900px){
+.hero-overlay {
+  padding: 0 400px 0 400px;
+  }
+   
+  
+.hero-text h1{
+ width: min-content;
+  }
+
+  .portfolio-text p {
+    font-size: 33px;
+  }
+
+ .link-icons {
+  left: 540px;
+}
+
+#profilepic {
+  left: 500px;
+}
+
+
 }
