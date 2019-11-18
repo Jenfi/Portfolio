@@ -153,7 +153,14 @@ footer p{
   padding-left: 41px;
 }
 
-.linkedin-container{
+.link-icons{
+  display: flex;
+  position: absolute;
+  top: 117px;
+  left: 200px;
+  }
+
+.link-icons a{
   border: solid 3px white;
   border-radius: 50%;
   width: 39px;
@@ -164,13 +171,13 @@ footer p{
    justify-content: center;
 }
 
-.linkedin-container a{
+/* .linkedin-container a{
   position: absolute;
   top: 12px;
   left: 12px;
-}
+} */
 
-.github-container{
+/* .github-container{
   border: solid 3px white;
   border-radius: 50%;
   width: 39px;
@@ -179,9 +186,9 @@ footer p{
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
-.stackoverflow-container{
+/* .stackoverflow-container{
   border: solid 3px white;
   border-radius: 50%;
   width: 39px;
@@ -190,14 +197,9 @@ footer p{
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
-.link-icons{
-display: flex;
-position: absolute;
-top: 117px;
-left: 200px;
-}
+
 
 .portfolio-text{
   display: flex;
