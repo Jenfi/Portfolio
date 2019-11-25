@@ -366,14 +366,14 @@ line-height: 32px;
 
 /*MEDIA QUERIES*/
 
-@media (min-width: 650px){
+@media (min-width: 760px){
 
 .link-icons {
-  left: 450px;
+  left: 580px;
 }
 
 #profilepic {
-  left: 380px;
+  left: 480px;
 }
 
 .about-me {
@@ -389,10 +389,10 @@ line-height: 32px;
 }
 
 .skills {
-  padding: 58px 75px 56px 75px;
+  padding: 58px 140px 56px 140px;
 }
 
-@media (min-width:900px){
+@media (min-width:1000px){
 
 .hero-overlay {
 padding: 0 100px 0 100px;
@@ -419,16 +419,10 @@ line-height: 33px;
 }
 
  .link-icons {
-  left: 620px;
+  left: 670px;
 }
 
-.me {
-  padding: 58px 120px 56px 120px;
-}
 
-.skills {
-  padding: 58px 145px 56px 145px;
-}
 
 
 .skills h2 {
@@ -436,11 +430,100 @@ line-height: 33px;
 }
 
 #profilepic {
-  left: 550px;
+  left: 600px;
 }
 
 }
 
 @media (min-width:1200px){
+
+  header{
+    width:100%;
+  }
+  .hero-overlay {
+    padding: 0 415px 0 415px;
+    width:100%;
+  }
+
+
+  .link-icons {
+  position: relative;
+  left: 700px;
+  top: 5px;
+}
+
+.link-icons a {
+  width: 80px;
+  height: 80px;
+}
+
+
+#profilepic {
+  left: 1174px;
+  width: 300px;
+  top: 250px;
+}
+
+.hero-text h1 {
+  width: min-content;
+  font-size: 82px;
+  line-height: 100px;
+}
+
+.hero-text {
+padding-left: 0;
+}
+
+p{
+  font-size: 30px;
+  line-height: 50px;
+}
+
+h2{
+  font-size: 48px;
+  line-height: 58px;
+}
+
+h4{
+  font-size: 50px;
+  line-height: 61px;
+}
+
+.link-hero{
+  width: 31px;
+  height: auto;
+}
+
+.github-hero{
+  width: 35px;
+  height: auto;
+}
+
+.stackoverflow-hero{
+  width: 38px;
+  height:auto;
+}
+
+.me {
+  padding: 124px 416px 123px 416px;
+  font-size: 30px;
+  width: 100%;
+}
+
+.me p{
+  line-height: 50px;
+}
+
+.tech{
+  padding: 124px 416px 123px 416px;
+}
+
+.projects{
+  padding: 124px 416px 123px 416px;
+  width: 100%;
+}
+.skills {
+  padding: 58px 145px 56px 145px;
+}
 
 }
