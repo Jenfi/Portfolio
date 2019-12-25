@@ -274,6 +274,10 @@ footer p{
   width: 100%;
 }
 
+.project-img{
+  height: 179px;
+  width: 303px;
+}
 .my-words h3{
   margin: 63px 0 23px 0;
 }
@@ -399,7 +403,7 @@ line-height: 32px;
   } 
 
   #profilepic{
-    left: 200px;
+    left: 180px;
   }
 
 @media (min-width: 760px){
