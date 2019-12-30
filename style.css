@@ -5,6 +5,20 @@
 }
 
 
+#linkedin{
+  width: 15px;
+  height: 15px;
+}
+
+#github{
+  width: 17px;
+  height: 18px;
+}
+
+#stackoverflow{
+  width:19px;
+  height: 19px;
+}
 body{
   background:#fff;
   margin: 0;
@@ -250,6 +264,7 @@ footer p{
 
 .project-p{
   text-align: left;
+  margin-top: 12px;
 }
 
 .project-container{
@@ -277,6 +292,7 @@ footer p{
 .project-img{
   height: 179px;
   width: 303px;
+  margin-bottom: 20px;
 }
 .my-words h3{
   margin: 63px 0 23px 0;
@@ -427,12 +443,12 @@ line-height: 32px;
   padding: 58px 50px 56px 50px;
 }
 
-.project-container {
+/* .project-container {
   width: 100%;
-}
-.other-projects{
+} */
+/* .other-projects{
   width: 100%;
-}
+} */
 
 .my-words{
   padding: 58px 50px 56px 50px;
@@ -459,7 +475,7 @@ h6{
 }
 
 .my-words {
-  padding: 58px 90px 56px 90px;
+  padding: 58px 110px 56px 110px;
 }
 
 .my-words ul {
@@ -476,7 +492,7 @@ h6{
 }
 
 .me {
-  padding: 58px 280px 56px 280px;
+  padding:  58px 150px 56px 150px;
 }
 
 .projects {
@@ -506,14 +522,14 @@ h6{
   left: 850px;
 }
 
-.project-p{
-    padding-left: 120px;
+/* .project-p{ */
+    /* padding-left: 120px; */
     /* width: 800px; */
-}
+/* } */
 
-ul{
+/* ul{
     padding-left: 120px;
-}
+} */
 
 .my-words {
   padding: 58px 350px 56px 350px;
@@ -532,7 +548,19 @@ ul{
 }
 }
 
-@media (min-width: 1800px) {
+@media (min-width: 1679px) {
+
+  .link-icons {
+    left: 1100px;
+}
+
+.hero-text {
+  padding-left: 400px;
+}
+
+#profilepic {
+  left: 1000px;
+}
 
   .hero-text p {
     font-size: 32px;
@@ -547,6 +575,99 @@ ul{
     font-size: 52px;
   }
 
+  .me {
+    padding: 58px 350px 56px 350px;
+}
 
+.my-words {
+  padding: 58px 480px 56px 480px;
+}
+.my-words ul {
+  /* padding-left: 0; */
+  /* text-align: center; */
+  align-self: center;
+}
+
+.skills {
+  padding: 58px 380px 56px 380px;
+}
+
+footer h5{
+font-size: 22px;
+}
+footer h3 {
+  font-size: 32px;
+}
+}
+
+@media (min-width: 1919px) {
+
+  .link-icons {
+    left: 1200px;
+}
+
+.hero-text {
+  padding-left: 420px;
+}
+
+#profilepic {
+  left: 1100px;
+  width: 200px;
+  top: 350px;
+}
+
+.link-icons a {
+  width: 45px;
+  height: 45px;
+}
+
+#linkedin{
+  width: 20px;
+  height: 20px;
+}
+
+#github{
+  width: 22px;
+  height: 23px;
+}
+
+#stackoverflow{
+  width:22px;
+  height: 22px;
+}
+
+body{
+  font-size: 22px;
+}
+
+.my-words {
+  padding: 58px 496px 56px 496px;
+}
+h2{
+  font-size: 32px;
+  margin: 0 300px 70px 300px;
+}
+
+.skills h2 {
+  margin: 0 400px 70px 400px;
+} 
+
+h3{
+  font-size: 30px;
+}
+h5{
+  font-size: 24px;
+}
+
+h6{
+  font-size: 22px;
+}
+
+.skills {
+  padding: 58px 420px 56px 420px;
+}
+footer h5 {
+  font-size: 28px;
+}
 
 }
