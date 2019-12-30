@@ -433,15 +433,25 @@ line-height: 32px;
 
  .me{
    width:100%;
+    padding: 58px 86px 56px 86px;
+ }
+
+ .tech{
+  padding: 58px 86px 56px 86px;
+ }
+
+ .projects{
+  padding: 58px 86px 56px 86px;
+ }
+
+ .my-words{
+  padding: 58px 86px 56px 86px;
  }
 
  .skills h2 {
   margin: 0 300px 36px 300px;
 }
 
-.projects{
-  padding: 58px 50px 56px 50px;
-}
 
 /* .project-container {
   width: 100%;
@@ -450,9 +460,6 @@ line-height: 32px;
   width: 100%;
 } */
 
-.my-words{
-  padding: 58px 50px 56px 50px;
-}
 }
 
 @media (min-width: 979px) {
@@ -466,6 +473,10 @@ line-height: 32px;
 #profilepic {
   left: 600px;
 }
+
+.me {
+  padding: 58px 106px 56px 106px;
+}
 .skills h2 {
   margin: 0 400px 36px 400px;
 }
@@ -473,7 +484,9 @@ line-height: 32px;
 h6{
   align-self: flex-start;
 }
-
+.projects {
+  padding: 58px 150px 56px 150px;
+}
 .my-words {
   padding: 58px 110px 56px 110px;
 }
@@ -531,6 +544,10 @@ h6{
     padding-left: 120px;
 } */
 
+.projects {
+  padding: 58px 355px 56px 355px;
+}
+
 .my-words {
   padding: 58px 350px 56px 350px;
 }
@@ -577,6 +594,10 @@ h6{
 
   .me {
     padding: 58px 350px 56px 350px;
+}
+
+.projects {
+  padding: 58px 490px 56px 490px;
 }
 
 .my-words {
@@ -640,12 +661,16 @@ body{
   font-size: 22px;
 }
 
+.projects {
+  padding: 58px 510px 56px 510px;
+}
+
 .my-words {
   padding: 58px 496px 56px 496px;
 }
 h2{
   font-size: 32px;
-  margin: 0 300px 70px 300px;
+  margin: 0 200px 70px 200px;
 }
 
 .skills h2 {
@@ -670,4 +695,9 @@ footer h5 {
   font-size: 28px;
 }
 
+.project-container li {
+  font-size: 14px;
+  margin-top:7px;
+  margin-bottom: 14px;
+}
 }
