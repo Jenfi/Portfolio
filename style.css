@@ -389,6 +389,12 @@ line-height: 32px;
   color: #396362;
 }
 
+footer a{
+  text-decoration: none;
+  color: #FFF;
+  font-weight: 100;
+}
+
 #profilepic{
   position: absolute;
   top: 380px;
@@ -448,6 +454,10 @@ line-height: 32px;
   padding: 58px 86px 56px 86px;
  }
 
+ .my-words ul {
+  align-self: flex-start;
+}
+
  .skills h2 {
   margin: 0 300px 36px 300px;
 }
@@ -475,7 +485,7 @@ line-height: 32px;
 }
 
 .me {
-  padding: 58px 106px 56px 106px;
+  padding: 58px 140px 56px 140px;
 }
 .skills h2 {
   margin: 0 400px 36px 400px;
@@ -485,13 +495,17 @@ h6{
   align-self: flex-start;
 }
 .projects {
-  padding: 58px 150px 56px 150px;
+  padding: 58px 140px 56px 140px;
 }
 .my-words {
-  padding: 58px 110px 56px 110px;
+  padding: 58px 140px 56px 140px;
 }
 
 .my-words ul {
+  align-self: flex-start;
+}
+
+.my-words p{
   align-self: flex-start;
 }
 
@@ -516,6 +530,10 @@ h6{
     padding: 58px 280px 56px 280px;
 }
 
+.my-words p{
+  align-self: flex-start;
+}
+
 .skills{
     padding: 58px 280px 56px 280px;
 }
@@ -535,6 +553,9 @@ h6{
   left: 850px;
 }
 
+h5{
+  font-size: 17px;
+}
 /* .project-p{ */
     /* padding-left: 120px; */
     /* width: 800px; */
@@ -554,6 +575,10 @@ h6{
 
 .my-words ul{
   padding-left: 0;
+}
+
+.my-words p{
+ align-self: flex-start;
 }
   
 .skills ul{
@@ -601,12 +626,16 @@ h6{
 }
 
 .my-words {
-  padding: 58px 480px 56px 480px;
+  padding: 58px 490px 56px 490px;
 }
 .my-words ul {
   /* padding-left: 0; */
   /* text-align: center; */
-  align-self: center;
+  align-self: flex-start;
+}
+
+.my-words p{
+  align-self: flex-start;
 }
 
 .skills {
@@ -665,9 +694,19 @@ body{
   padding: 58px 510px 56px 510px;
 }
 
-.my-words {
-  padding: 58px 496px 56px 496px;
+  .my-words {
+    padding: 59px 500px 56px 500px;
 }
+
+.my-words ul{
+  align-self: flex-start;
+}
+
+.my-words p{
+  align-self: flex-start;
+}
+
+
 h2{
   font-size: 32px;
   margin: 0 200px 70px 200px;
