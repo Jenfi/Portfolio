@@ -154,15 +154,6 @@ footer{
   text-align: center;
 }
 
-/* figure {
-  width: 80px;
-  display: flex;
-  align-items: center;
-  margin: 0 12px 0 0;
-} */
-
-
-
 footer h3{
   color: #FFF;
 }
@@ -175,6 +166,13 @@ footer p{
   color: #FFF;
   line-height: 29px;
 }
+
+/* figure {
+  width: 80px;
+  display: flex;
+  align-items: center;
+  margin: 0 12px 0 0;
+} */
 
 /* .line {
   width: 70px;
@@ -495,8 +493,19 @@ h6{
   align-self: flex-start;
 }
 .projects {
-  padding: 58px 140px 56px 140px;
+  /* padding: 58px 140px 56px 140px; */
+  flex-wrap: wrap;
+  flex-direction: row;
 }
+.project-container {
+  display: inline;
+  width: 350px;
+  margin: 12px 24px 35px 24px;
+}
+  .projects h2{
+margin: 0 100px 39px 100px;
+}
+
 .my-words {
   padding: 58px 140px 56px 140px;
 }
@@ -523,8 +532,21 @@ h6{
 }
 
 .projects {
-  padding: 58px 280px 56px 280px;
+  padding: 58px 140px 56px 140px;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
+
+.projects h2{
+  margin: 0 200px 39px 200px;
+  }
+
+.project-container {
+  display: inline;
+  width: 350px;
+  margin: 12px 24px 35px 24px;
+}
+ 
 
 .my-words{
     padding: 58px 280px 56px 280px;
@@ -566,8 +588,21 @@ h5{
 } */
 
 .projects {
-  padding: 58px 355px 56px 355px;
+  padding: 58px 140px 56px 140px;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
+
+.projects h2{
+  margin: 0 250px 39px 250px;
+  }
+
+.project-container {
+  display: inline;
+  width: 350px;
+  margin: 12px 24px 35px 24px;
+}
+
 
 .my-words {
   padding: 58px 350px 56px 350px;
@@ -622,8 +657,25 @@ h5{
 }
 
 .projects {
-  padding: 58px 490px 56px 490px;
+  padding: 58px 140px 56px 140px;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
+
+.projects h2{
+  margin: 0 400px 50px 400px;
+  }
+
+.project-container {
+  display: inline;
+  width: 350px;
+  margin: 12px 24px 35px 24px;
+}
+
+
+/* .projects {
+  padding: 58px 490px 56px 490px;
+} */
 
 .my-words {
   padding: 58px 490px 56px 490px;
@@ -690,9 +742,28 @@ body{
   font-size: 22px;
 }
 
+
+.projects {
+  padding: 58px 140px 56px 140px;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.projects h2{
+  margin: 0 450px 50px 450px;
+  }
+
+.project-container {
+  display: inline;
+  width: 350px;
+  margin: 12px 24px 35px 24px;
+}
+
+
+/* 
 .projects {
   padding: 58px 510px 56px 510px;
-}
+} */
 
   .my-words {
     padding: 59px 500px 56px 500px;
