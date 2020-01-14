@@ -329,9 +329,22 @@ line-height: 32px;
 
 .my-words span{
   color: #4b8e8d;
-  font-weight: 400px;
+  /* font-weight: 400px; */
   line-height: 29px;
   font-weight: 400;
+}
+
+.thoughts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.thought-article{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .skills{
@@ -505,8 +518,13 @@ footer a{
 }
 
 .me {
-  padding: 58px 140px 56px 140px;
+  padding: 58px 160px 56px 160px;
 }
+
+.tech{
+  padding: 58px 160px 56px 160px;
+}
+
 .skills h2 {
   margin: 0 400px 36px 400px;
 }
@@ -515,21 +533,21 @@ h6{
   align-self: flex-start;
 }
 .projects {
-  /* padding: 58px 140px 56px 140px; */
+  padding: 58px 160px 56px 160px;
   flex-wrap: wrap;
   flex-direction: row;
 }
 .project-container {
   display: inline;
-  width: 305px;
-  margin: 12px 24px 35px 24px;
+  width: 300px;
+  margin: 12px 12px 35px 12px;
 }
   .projects h2{
 margin: 0 120px 39px 120px;
 }
 
 .my-words {
-  padding: 58px 140px 56px 140px;
+  padding: 58px 160px 56px 160px;
 }
 
 .my-words ul {
@@ -538,6 +556,10 @@ margin: 0 120px 39px 120px;
 
 .my-words p{
   align-self: flex-start;
+}
+
+.thoughts{
+  flex-wrap: nowrap;
 }
 
 @media (min-width: 1200px) {
@@ -550,11 +572,14 @@ margin: 0 120px 39px 120px;
 }
 
 .me {
-  padding:  58px 150px 56px 150px;
+  padding: 58px 230px 56px 230px;
+}
+.tech{
+  padding: 58px 230px 56px 230px;
 }
 
 .projects {
-  padding: 58px 140px 56px 140px;
+  padding: 58px 230px 56px 230px;
   flex-wrap: wrap;
   flex-direction: row;
 }
@@ -565,21 +590,38 @@ margin: 0 120px 39px 120px;
 
 .project-container {
   display: inline;
-  width: 305px;
-  margin: 12px 24px 35px 24px;
+  width: 345px;
+  /* margin: 12px 12px 35px 12px; */
 }
  
+#img-container{
+  width: 330px;
+}
+
+.project-img{
+  width: 330px;
+}
+
+.overlay{
+  width: 330px;
+}
+
 
 .my-words{
-    padding: 58px 280px 56px 280px;
+  padding: 58px 230px 56px 230px;
 }
 
 .my-words p{
   align-self: flex-start;
 }
 
+.thought-article{
+  width: 360px;
+  margin: 0 12px 0 12px;
+}
+
 .skills{
-    padding: 58px 280px 56px 280px;
+  padding:  58px 200px 56px 200px;
 }
 
 }
@@ -600,21 +642,28 @@ margin: 0 120px 39px 120px;
 h5{
   font-size: 17px;
 }
+.me{
+  padding: 58px 300px 56px 300px;
+}
+
+.tech{
+  padding: 58px 300px 56px 300px;
+}
 
 .projects {
-  padding: 58px 140px 56px 140px;
+  padding: 58px 300px 56px 300px;
   flex-wrap: wrap;
   flex-direction: row;
 }
 
 .projects h2{
-  margin: 0 300px 39px 300px;
+  margin: 0 150px 39px 150px;
   }
 
 .project-container {
   display: inline;
-  width: 350px;
-  margin: 12px 24px 35px 24px;
+  width: 375px;
+  
 }
 
 .project-img {
@@ -628,7 +677,7 @@ h5{
 }
 
 .my-words {
-  padding: 58px 350px 56px 350px;
+  padding: 58px 300px 56px 300px;
 }
 
 .my-words ul{
@@ -676,43 +725,46 @@ h5{
   }
 
   .me {
-    padding: 58px 350px 56px 350px;
+    padding: 58px 410px 56px 401px;
+}
+.tech{
+  padding: 58px 410px 56px 401px;
 }
 
 .projects {
-  padding: 58px 140px 56px 140px;
+  
+  padding: 58px 410px 56px 401px;
   flex-wrap: wrap;
   flex-direction: row;
 }
 
 .projects h2{
-  margin: 0 400px 50px 400px;
+  margin: 0 300px 50px 300px;
   }
 
 .project-container {
   display: inline;
-  width: 370px;
-  margin: 12px 24px 35px 24px;
+  width: 410px;
+  /* margin: 12px 24px 35px 24px; */
 }
 
 .project-img{
-  height:220px;
-  width:370px;
+  height:250px;
+  width:410px;
 }
 
 
 #img-container{
-  width: 370px;
-  height: 220px;
+  height:250px;
+  width:410px;
 }
 
-
-/* .projects {
-  padding: 58px 490px 56px 490px;
-} */
-
+.overlay {
+  top: -175px;
+  left: 30px;
+}
 .my-words {
-  padding: 58px 490px 56px 490px;
+  padding: 58px 410px 56px 401px;
 }
 .my-words ul {
   /* padding-left: 0; */
@@ -722,6 +774,10 @@ h5{
 
 .my-words p{
   align-self: flex-start;
+}
+
+.thought-article{
+    width: 410px;
 }
 
 .skills {
@@ -776,39 +832,47 @@ body{
   font-size: 22px;
 }
 
+.me{
+  padding: 58px 446px 56px 446;
+}
+
+.tech{
+  padding: 58px 446px 56px 446;
+}
 
 .projects {
-  padding: 58px 140px 56px 140px;
+  padding: 58px 446px 56px 446;
+  /* padding: 58px 140px 56px 140px; */
   flex-wrap: wrap;
   flex-direction: row;
 }
 
 .projects h2{
-  margin: 0 600px 50px 600px;
+  margin: 0 300px 50px 300px;
   }
 
 .project-container {
   display: inline;
-  width: 380px;
-  margin: 12px 24px 35px 24px;
+  width: 490px;
+  /* margin: 12px 24px 35px 24px; */
 }
 
 .project-img{
-  height:220px;
-  width:380px;
+  height:310px;
+  width:490px;
 }
 
 #img-container{
-  width: 380px;
+  height:310px;
+  width:490px;
 }
 
-/* 
-.projects {
-  padding: 58px 510px 56px 510px;
-} */
-
+.overlay {
+  top: -220px;
+  left: 70px;
+}
   .my-words {
-    padding: 59px 500px 56px 500px;
+    padding: 58px 446px 56px 446;
 }
 
 .my-words ul{
@@ -818,7 +882,9 @@ body{
 .my-words p{
   align-self: flex-start;
 }
-
+.thought-article {
+  width: 510px;
+}
 
 h2{
   font-size: 32px;
