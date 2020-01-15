@@ -833,15 +833,15 @@ body{
 }
 
 .me{
-  padding: 58px 446px 56px 446;
+  padding: 58px 445px 56px 445px;
 }
 
 .tech{
-  padding: 58px 446px 56px 446;
+  padding: 58px 445px 56px 445px;
 }
 
 .projects {
-  padding: 58px 446px 56px 446;
+  padding: 58px 445px 56px 445px;
   /* padding: 58px 140px 56px 140px; */
   flex-wrap: wrap;
   flex-direction: row;
@@ -854,12 +854,12 @@ body{
 .project-container {
   display: inline;
   width: 490px;
-  /* margin: 12px 24px 35px 24px; */
+  
 }
 
 .project-img{
-  height:310px;
-  width:490px;
+  height: 310px;
+  width: 490px;
 }
 
 #img-container{
@@ -872,7 +872,7 @@ body{
   left: 70px;
 }
   .my-words {
-    padding: 58px 446px 56px 446;
+    padding: 58px 445px 56px 445px;
 }
 
 .my-words ul{
@@ -892,7 +892,7 @@ h2{
 }
 
 .skills h2 {
-  margin: 0 400px 70px 400px;
+  margin: 0 500px 70px 500px;
 } 
 
 h3{
@@ -907,7 +907,7 @@ h6{
 }
 
 .skills {
-  padding: 58px 420px 56px 420px;
+  padding: 58px 445px 56px 445px;
 }
 footer h5 {
   font-size: 28px;
