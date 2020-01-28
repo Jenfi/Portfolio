@@ -106,6 +106,7 @@ h5{
   color: #4b8e8d;
   margin: 12px 0 0 0;
   align-self: self-start;
+  font-size: 17px;
 }
 
 h6{
@@ -324,6 +325,7 @@ line-height: 32px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 40px;
 }
 
 .skills{
