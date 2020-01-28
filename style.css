@@ -93,8 +93,8 @@ h3{
 
 h4{
   color: #FFF;
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 22px;
+  font-weight: 700;
   font-family: 'Montserrat', sans-serif;
   line-height: 29px;
   margin: 4px 0 0 0;
@@ -183,7 +183,7 @@ footer p{
   display: flex;
   position: absolute;
   top: 117px;
-  left: 150px;
+  left: 200px;
   z-index: 4;
   }
 
@@ -211,7 +211,7 @@ footer p{
   font-size: 13px;
   font-weight: bold;
   letter-spacing: 1px;
-  margin: 0;
+  margin: 0 0 0 14px;
 }
 
 .me{
@@ -241,8 +241,8 @@ footer p{
 }
 
 .project-container{
-  margin-bottom: 120px;
-  height: 300px;
+  margin-bottom: 40px;
+  /* height: 300px; */
 }
 
 .other-projects{
@@ -251,10 +251,10 @@ margin-bottom: 100px;
 
 .project-container li{
   background: #ffe7d1;
-  margin-right:6px;
+  margin-right:3px;
   text-align: left;
-  font-size: 9px;
-  line-height: 10px;
+  font-size: 11px;
+  line-height: 11px;
   padding: 4px;
 }
 .my-words{
@@ -287,16 +287,17 @@ margin-bottom: 100px;
 }
 
 .overlay {
-  position: relative;
-    top: -125px;
+    position: absolute;
+    top: 35%;
     color: white;
     font-weight: 700;
     z-index: 8;
+    left: 35%;
 }
 
-.my-words h3{
+/* .my-words h3{
   margin: 63px 0 23px 0;
-}
+} */
 
 .my-words p{
 line-height: 32px;
@@ -435,9 +436,9 @@ footer a{
 
 @media (min-width: 370px){
   
-  .link-icons{
+  /* .link-icons{
     left: 200px;
-  } 
+  }  */
 
   #profilepic{
     left: 180px;
