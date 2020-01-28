@@ -26,6 +26,7 @@ body{
   flex-direction: column;
   font-family: 'Roboto', sans-serif;
   font-size: 17px;
+  font-weight: 400;
   /* height: 100vh; */
 }
 
@@ -121,7 +122,6 @@ p{
 }
 
 span{
-  font-family: 'Roboto', sans-serif;
   line-height: 29px;
   color: #396362;
   font-weight: bold;
@@ -350,6 +350,7 @@ line-height: 32px;
   background: none;
   margin: 0 6px 0 6px;
   text-align: center;
+  font-weight: 400;
 }
 
 .more-info{
