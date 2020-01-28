@@ -27,7 +27,6 @@ body{
   font-family: 'Roboto', sans-serif;
   font-size: 17px;
   font-weight: 400;
-  /* height: 100vh; */
 }
 
 header{
@@ -242,7 +241,6 @@ footer p{
 
 .project-container{
   margin-bottom: 40px;
-  /* height: 300px; */
 }
 
 .other-projects{
@@ -270,9 +268,9 @@ margin-bottom: 100px;
 .project-img{
   height: 179px;
   width: 303px;
-  /* margin-bottom: 20px; */
   z-index: 1;
   opacity:60%;
+  align-self: center;
 }
 
 #img-container{
@@ -282,7 +280,6 @@ margin-bottom: 100px;
   background:	#25403f;
   width: 303px;
   height: 179px;
-  /* margin-bottom: 20px; */
   display: inline-block;
 }
 
@@ -295,10 +292,6 @@ margin-bottom: 100px;
     left: 35%;
 }
 
-/* .my-words h3{
-  margin: 63px 0 23px 0;
-} */
-
 .my-words p{
 line-height: 32px;
 }
@@ -310,7 +303,6 @@ line-height: 32px;
 
 .my-words span{
   color: #4b8e8d;
-  /* font-weight: 400px; */
   line-height: 29px;
   font-weight: 400;
 }
@@ -325,7 +317,7 @@ line-height: 32px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   margin-bottom: 40px;
 }
 
@@ -434,15 +426,6 @@ footer a{
 
 /*MEDIA QUERIES*/
 
-@media (min-width: 370px){
-  
-  /* .link-icons{
-    left: 200px;
-  }  */
-
-  #profilepic{
-    left: 180px;
-  }
 
 @media (min-width: 760px){
   .link-icons{
