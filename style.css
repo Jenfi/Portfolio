@@ -226,8 +226,8 @@ footer p{
 .projects{
   text-align: center;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
+  align-items: baseline;
   justify-content: center;
   padding: 58px 36px 56px 36px;
   background:#eeeeee;
@@ -240,11 +240,12 @@ footer p{
 }
 
 .project-container{
-  margin-bottom: 40px;
+  margin: 12px 25px 40px 25px;
+  display: inline;
 }
 
 .other-projects{
-margin-bottom: 100px;
+margin: 0 20px 0 20px;
 }
 
 .project-container li{
@@ -284,12 +285,12 @@ margin-bottom: 100px;
 }
 
 .overlay {
-    position: absolute;
-    top: 35%;
-    color: white;
-    font-weight: 700;
-    z-index: 8;
-    left: 35%;
+  position: absolute;
+  top: 35%;
+  color: white;
+  font-weight: 700;
+  z-index: 8;
+  left: 35%;
 }
 
 .my-words p{
@@ -310,7 +311,7 @@ line-height: 32px;
 .thoughts {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
   flex-wrap: wrap;
 }
 .thought-article{
@@ -319,6 +320,7 @@ line-height: 32px;
   justify-content: center;
   align-items: flex-start;
   margin-bottom: 40px;
+  max-width: 400px;
 }
 
 .skills{
@@ -460,128 +462,6 @@ footer a{
  .skills h2 {
   margin: 0 300px 36px 300px;
 }
-
-
-}
-
-@media (min-width: 979px) {
-
-  .link-icons {
-    left: 650px;
-}
-.hero-text{
-  padding-left: 150px;
-}
-#profilepic {
-  left: 600px;
-}
-
-.me {
-  padding: 58px 160px 56px 160px;
-}
-
-.tech{
-  padding: 58px 160px 56px 160px;
-}
-
-.skills h2 {
-  margin: 0 400px 36px 400px;
-}
-
-h6{
-  align-self: flex-start;
-}
-.projects {
-  padding: 58px 160px 56px 160px;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
-.project-container {
-  display: inline;
-  width: 300px;
-  margin: 12px 12px 120px 12px;
-}
-  .projects h2{
-margin: 0 120px 39px 120px;
-}
-
-.my-words {
-  padding: 58px 160px 56px 160px;
-}
-
-.my-words ul {
-  align-self: flex-start;
-}
-
-.my-words p{
-  align-self: flex-start;
-}
-
-.thoughts{
-  flex-wrap: nowrap;
-}
-
-@media (min-width: 1200px) {
-  .hero-text {
-    padding-left: 250px;
-}
-
-.link-icons {
-  left: 750px;
-}
-
-.me {
-  padding: 58px 230px 56px 230px;
-}
-.tech{
-  padding: 58px 230px 56px 230px;
-}
-
-.projects {
-  padding: 58px 230px 56px 230px;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
-
-.projects h2{
-  margin: 0 200px 39px 200px;
-  }
-
-.project-container {
-  display: inline;
-  width: 345px;
-}
- 
-#img-container{
-  width: 330px;
-}
-
-.project-img{
-  width: 330px;
-}
-
-.overlay{
-  width: 330px;
-}
-
-
-.my-words{
-  padding: 58px 230px 56px 230px;
-}
-
-.my-words p{
-  align-self: flex-start;
-}
-
-.thought-article{
-  width: 360px;
-  margin: 0 12px 0 12px;
-}
-
-.skills{
-  padding:  58px 200px 56px 200px;
-}
-
 }
 
 @media (min-width: 1400px) {
@@ -601,25 +481,22 @@ h5{
   font-size: 17px;
 }
 .me{
-  padding: 58px 300px 56px 300px;
+  padding: 58px 290px 56px 290px;
 }
 
 .tech{
-  padding: 58px 300px 56px 300px;
+  padding: 58px 290px 56px 290px;
 }
 
 .projects {
-  padding: 58px 300px 56px 300px;
-  flex-wrap: wrap;
-  flex-direction: row;
+  padding: 58px 290px 56px 290px;
 }
 
 .projects h2{
-  margin: 0 150px 39px 150px;
+  margin: 0 300px 39px 300px;
   }
 
 .project-container {
-  display: inline;
   width: 375px;
   
 }
@@ -629,17 +506,25 @@ h5{
   width: 350px;
 }
 
+
 #img-container{
   width: 350px;
   height: 200px;
 }
 
 .my-words {
-  padding: 58px 300px 56px 300px;
+  padding: 58px 290px 56px 290px;
 }
 
+.skills{
+    padding: 58px 290px 56px 290px;
+}
+
+.skills h2{
+margin: 0 340px 36px 340px;
+}
 .my-words ul{
-  padding-left: 0;
+  padding-left: 35px;
 }
 
 .my-words p{
@@ -692,8 +577,8 @@ h5{
 .projects {
   
   padding: 58px 410px 56px 401px;
-  flex-wrap: wrap;
-  flex-direction: row;
+  /* flex-wrap: wrap;
+  flex-direction: row; */
 }
 
 .projects h2{
@@ -701,7 +586,7 @@ h5{
   }
 
 .project-container {
-  display: inline;
+  /* display: inline; */
   width: 410px;
 }
 
@@ -800,8 +685,8 @@ body{
 .projects {
   padding: 58px 445px 56px 445px;
   /* padding: 58px 140px 56px 140px; */
-  flex-wrap: wrap;
-  flex-direction: row;
+  /* flex-wrap: wrap;
+  flex-direction: row; */
 }
 
 .projects h2{
