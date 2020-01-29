@@ -481,19 +481,19 @@ h5{
   font-size: 17px;
 }
 .me{
-  padding: 58px 290px 56px 290px;
+  padding: 58px 270px 56px 270px;
 }
 
 .tech{
-  padding: 58px 290px 56px 290px;
+  padding: 58px 270px 56px 270px;
 }
 
 .projects {
-  padding: 58px 290px 56px 290px;
+  padding: 58px 270px 56px 270px;
 }
 
 .projects h2{
-  margin: 0 300px 39px 300px;
+  margin: 0 200px 39px 200px;
   }
 
 .project-container {
@@ -513,15 +513,15 @@ h5{
 }
 
 .my-words {
-  padding: 58px 290px 56px 290px;
+  padding: 58px 270px 56px 270px;
 }
 
 .skills{
-    padding: 58px 290px 56px 290px;
+  padding: 58px 270px 56px 270px;
 }
 
 .skills h2{
-margin: 0 340px 36px 340px;
+margin: 0 400px 36px 400px;
 }
 .my-words ul{
   padding-left: 35px;
@@ -554,31 +554,29 @@ margin: 0 340px 36px 340px;
   left: 1000px;
 }
 
-  .hero-text p {
-    font-size: 32px;
-  }
-
-  .hero-text span {
-    color: #FFF;
-    font-size: 28px;
-  }
-
-  h1 {
-    font-size: 52px;
-  }
-
-  .me {
-    padding: 58px 410px 56px 401px;
+.hero-text p {
+  font-size: 32px;
 }
+
+.hero-text span {
+  color: #FFF;
+  font-size: 28px;
+}
+
+h1 {
+  font-size: 52px;
+}
+
+.me {
+  padding: 58px 380px 56px 380px;
+}
+
 .tech{
-  padding: 58px 410px 56px 401px;
+  padding: 58px 380px 56px 380px;
 }
 
 .projects {
-  
-  padding: 58px 410px 56px 401px;
-  /* flex-wrap: wrap;
-  flex-direction: row; */
+ padding: 58px 380px 56px 380px;
 }
 
 .projects h2{
@@ -586,7 +584,6 @@ margin: 0 340px 36px 340px;
   }
 
 .project-container {
-  /* display: inline; */
   width: 410px;
 }
 
@@ -601,17 +598,12 @@ margin: 0 340px 36px 340px;
   width:410px;
 }
 
-.overlay {
-  top: -175px;
-  left: 30px;
-}
 .my-words {
-  padding: 58px 410px 56px 401px;
+  padding: 58px 380px 56px 380px;
 }
 .my-words ul {
-  /* padding-left: 0; */
-  /* text-align: center; */
   align-self: flex-start;
+  padding-left: 170px;
 }
 
 .my-words p{
@@ -620,6 +612,7 @@ margin: 0 340px 36px 340px;
 
 .thought-article{
     width: 410px;
+    margin: 0 30px 0 30px;
 }
 
 .skills {
@@ -684,9 +677,6 @@ body{
 
 .projects {
   padding: 58px 445px 56px 445px;
-  /* padding: 58px 140px 56px 140px; */
-  /* flex-wrap: wrap;
-  flex-direction: row; */
 }
 
 .projects h2{
@@ -695,7 +685,7 @@ body{
 
 .project-container {
   display: inline;
-  width: 490px;
+  /* width: 490px; */
   margin: 12px 12px 250px 12px;  
 }
 
@@ -719,6 +709,7 @@ body{
 
 .my-words ul{
   align-self: flex-start;
+  padding-left: 170px;
 }
 
 .my-words p{
