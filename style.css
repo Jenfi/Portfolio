@@ -601,18 +601,10 @@ h1 {
 .my-words {
   padding: 58px 380px 56px 380px;
 }
-.my-words ul {
-  align-self: flex-start;
-  padding-left: 170px;
-}
-
-.my-words p{
-  align-self: flex-start;
-}
 
 .thought-article{
-    width: 410px;
-    margin: 0 30px 0 30px;
+  width: 410px;
+  margin: 0 30px 0 30px;
 }
 
 .skills {
@@ -629,8 +621,8 @@ footer h3 {
 
 @media (min-width: 1919px) {
 
-  .link-icons {
-    left: 1200px;
+.link-icons {
+  left: 1200px;
 }
 
 .hero-text {
