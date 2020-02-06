@@ -629,6 +629,10 @@ footer h3 {
   margin: 0 35px 20px 35px;
 }
 
-.skills h2 {
+h2 {
   margin: 0 700px 50px 700px;
+}
+
+.my-words h2{
+  margin: 0 400px 50px 400px;
 }
