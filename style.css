@@ -620,6 +620,13 @@ footer h3 {
 }
 
 @media (min-width: 1850px) {
+
+  #profilepic{
+    width: 199px;
+    left: 1400px;
+  }
+
+
   .my-words ul {
     padding-left: 130px;
 }
