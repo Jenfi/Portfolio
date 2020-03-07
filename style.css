@@ -621,23 +621,18 @@ footer h3 {
 
 @media (min-width: 1850px) {
 
-  #profilepic{
-    width: 199px;
-    left: 1400px;
-  }
+#profilepic{
+  width: 199px;
+  left: 1400px;
+}
 
-
-  .my-words ul {
-    padding-left: 130px;
+.my-words ul {
+  padding-left: 130px;
 }
 
 }
 .thought-article{
   margin: 0 35px 20px 35px;
-}
-
-.link-icons {
-  left: 1350px;
 }
 
 
